@@ -1,0 +1,24 @@
+{
+  "name": "EnrichWithSearchResultFunction",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "cvtienhoven/graylog-plugin-enrich-with-search-result"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint -c .eslintrc src/**/*",
+    "test": "jest"
+  },
+  "keywords": [
+    "graylog"
+  ],
+  "author": "cvtienhoven <c_van_tienhoven@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "graylog-web-plugin": "file:../graylog2-server/graylog2-web-interface/packages/graylog-web-plugin"
+  }
+}
